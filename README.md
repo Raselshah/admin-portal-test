@@ -25,7 +25,7 @@ A responsive and feature-rich admin dashboard built with modern web technologies
 git clone git@github.com:Raselshah/admin-portal-test.git
 
 # Go into the project folder
-cd admin-dashboard
+cd admin-portal-test
 
 # Install dependencies
 npm install
