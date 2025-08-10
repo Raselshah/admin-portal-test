@@ -52,6 +52,23 @@ const LoginPage: React.FC = () => {
           </Button>
         </Form.Item>
       </Form>
+      <div
+  style={{
+    background: "#f9fafb",
+    border: "1px solid #e5e7eb",
+    borderRadius: "8px",
+    padding: "16px 20px",
+   
+    boxShadow: "0 4px 12px rgba(0,0,0,0.05)",
+    fontFamily: "system-ui, sans-serif",
+    color: "#111827",
+    lineHeight: "1.6",
+  }}
+>
+  <p style={{ margin: 0, fontWeight: "bold", fontSize: "14px" }}>Username: <span style={{ fontWeight: "normal" }}>admin</span></p>
+  <p style={{ margin: "8px 0 0", fontWeight: "bold", fontSize: "14px" }}>Pass: <span style={{ fontWeight: "normal" }}>admin123</span></p>
+</div>
+
     </div>
   );
 };

@@ -1,16 +1,35 @@
-# Admin Dashboard (Vite + React + TypeScript)
+# Admin Dashboard
 
-## Features
-- Responsive admin dashboard for articles
-- Table with filtering, sorting, pagination, and search (debounced)
-- Editable article modal with validation
-- Performance chart (daily/monthly) using Recharts
-- Mock data + Redux Toolkit state management
-- Fake login with role-based UI (admin/editor)
+A responsive and feature-rich admin dashboard built with modern web technologies. Includes authentication, role-based access, and a customizable sidebar.
 
-## Quick start
-1. Install dependencies: `npm install`
-2. Run dev server: `npm run dev`
-3. Open http://localhost:5173
+## 🚀 Features
 
-Note: This is a scaffold. Install exact dependency versions that match your environment.
+- **User Authentication** (Login/Logout)
+- **Role-Based Access Control**
+- **Dynamic Sidebar Navigation**
+- **Responsive Layout** (works on desktop & mobile)
+- **Reusable UI Components**
+- **API Integration Ready**
+
+## 🛠 Tech Stack
+
+- **Frontend**: React.js
+- **UI Library**: Ant Design
+- **State Management**: Redux Toolkit
+- **Routing**: React Router DOM
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone git@github.com:Raselshah/admin-portal-test.git
+
+# Go into the project folder
+cd admin-dashboard
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
